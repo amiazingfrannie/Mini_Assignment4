@@ -1,0 +1,15 @@
+.grid-container {
+    display: grid;
+    flex-wrap: wrap;
+    width: 100vw;
+    grid-template-columns: repeat(2, 100px); 
+    grid-template-rows: repeat(2, 100px);    
+    justify-content: center;
+    align-items: center;
+}
+  
+.counter {
+    margin-bottom: 10px;
+    text-align: center;
+}
+  
